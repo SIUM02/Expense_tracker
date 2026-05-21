@@ -1,0 +1,14 @@
+{
+  "name": "student-expense-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Student expense tracker backend with SQLite persistence",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.4",
+    "sqlite3": "^5.1.6"
+  }
+}
